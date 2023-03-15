@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Grocery Management System</title>
+<link rel="icon" type="image/icon" href="image/grocery2.jpg">
+<!-- Code for font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Code for font awesome cdn -->   
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+<!-- Code for linking css file -->    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class = "header">
+        <a href="#" class ="logo"><i class="fa fa-shopping-basket"></i>  Grocery Shop  </a>
+        <nav class = "navbar">
+            <a href="#home">HOME</a>
+            <a href="#facility">FACILITY</a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#category">CATEGORY</a>
+        </nav>
+        <div class="icons">
+            <div class = " fa fa-bars" id = "menu-btn"></div>
+            <div class = " fa fa-search" id = "search-btn"></div>
+            <div class = " fa fa-shopping-cart" id = "cart-btn"></div>
+            <div class = " fa fa-user" id = "login-btn"></div>
+           
+        </div>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here....">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class = "fa fa-trash"></i>
+                <img src="image/watermelon.jpg">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">100</span>
+                    <span class="quantity">1 kg</span>
+                </div>
+            </div>
+            <div class="total"> total : 100</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <form action="#" class="login-form">
+            <h3>LOGIN FORM</h3>
+            <input type="email" placeholder="email Id" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <p>I forget my password<a href='#'>Click Here</a></p>
+            <p>New to this<a href='#'>Click Here</a></p>
+            <input type="submit" value="Login Here" class="btn">
+        </form>
+    </header>
+    <!-- header section -->
+
+
+    <!--banner section -->
+    <section div class="home" id="home">
+        <div class="content">
+            <h2>A2Z MARKET STORE</h2>
+            <P> Buy the Product by your Wish </P>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <section class="facility" id="facility">
+        <h1 class="heading">our <span>facility</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/grocery1.jpg"  width="200px" height="250px">
+                <h3>Fresh Fruits And Vegtables          </h3>
+                <a href="#" class="btn">Find Here</a>
+            </div>
+            <div class="box">
+                <img src="image/delivery1.webp"  width="150px" height="250px">
+                <h3>Fast and Secure Delivery              </h3>
+                <a href="#" class="btn">Find Here</a>
+            </div>
+            
+            <div class="box">
+                <img src="image/pay2.png"  width="200px" height="250px">
+                <h3>Payment through both Online and Offline Mode</h3>
+                <a href="#" class="btn">Find Here</a>
+            </div>
+        </div>
+    </section>
+
+    <!--banner section -->
+<!-- Product Section -->
+<section class="products" id="products">
+    <h1 class="heading">Best Selling Products</h1>
+    <div class="box-container">
+        <!-- <div class="wrapper"> -->
+            <div class="box">
+                <img src="image/apple.jpg" width="150px" height="250px">
+                <h1>Apple</h1>
+                <div class="price">₹250</div>
+                <div class="stars">
+                    <!-- star ratings -->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                     <!-- star ratings -->
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/chocolate.jpg" width="150px" height="250px">
+                <h1>Chocolate</h1>
+                <div class="price">₹10</div>
+                <div class="stars">
+                    <!-- star ratings -->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                     <!-- star ratings -->
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/icecream.jpg" width="150px" height="250px">
+                <h1>Icecream</h1>
+                <div class="price">₹150</div>
+                <div class="stars">
+                    <!-- star ratings -->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                     <!-- star ratings -->
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+    <!-- </div> -->
+        <!-- <div class="wrapper"> -->
+            <div class="box">
+                <img src="image/badam1.jpg" width="150px" height="250px">
+                <h1>Badam</h1>
+                <div class="price">₹150</div>
+                <div class="stars">
+                    <!-- star ratings -->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                     <!-- star ratings -->
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="image/washing.jpg" width="200px" height="250px">
+                <h1>Washing Powder</h1>
+                <div class="price">₹50</div>
+                <div class="stars">
+                    <!-- star ratings -->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                     <!-- star ratings -->
+                </div>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        <div class="box">
+            <img src="image/papaya.jpg" width="150px" height="250px">
+            <h1>Papaya</h1>
+            <div class="price">₹150</div>
+            <div class="stars">
+                <!-- star ratings -->
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                 <!-- star ratings -->
+            </div>
+            <a href="" class="btn">add to cart</a>
+    <!-- </div> -->
+    </div>
+</section>
+<section class="category" id="category">
+    <h1 class="heading">Our Category</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/fruits.jfif" width="250px" height="200px">
+            <h3>Fruits</h3>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+        <div class="box">
+            <img src="image/vegetables.jfif" width="250px" height="200px">
+            <h3>Vegetables</h3>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+        <div class="box">
+            <img src="image/milk.jpg" width="250px" height="200px">
+            <h3>Dairy Products</h3>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+        <div class="box">
+            <img src="image/nuts1.jpg" width="250px" height="200px">
+            <h3>Nuts</h3>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+        <div class="box">
+            <img src="image/household.jpg" width="250px" height="200px">
+            <h3>HouseHold Items</h3>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<section class="footer">
+    <div class="box-container">\
+        <div class="box">
+            <h3> A2B Market <i class="fa fa-shopping-basket"></i></h3>
+            <p>Don't Forget to Tell your valuable Feedback to Us. Share your Feedback through our Page</p>
+            <div class="share">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <h3> Contact us </h3>
+            <a href="#" class="links"> <i class="fa fa-phone"></i>+91 1234567890</a>
+            <a href="#" class="links"> <i class="fa fa-envelope"></i>a2zmarket@shop.com</a>
+            <a href="#" class="links"> <i class="fa fa-map-marker"></i>Near You</a>
+           
+        </div>
+        <div class="box">
+            <h3> Quick Access </h3>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i>Home</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i>Facility</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i>Products</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i>Category</a>
+           
+        </div>
+
+
+    </div>
+</section>
+    <script src="https://cdn.jsdeliver.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js "></script>
+</body>
+</html>
